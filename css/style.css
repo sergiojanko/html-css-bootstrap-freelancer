@@ -61,12 +61,26 @@ header
     width: 300px;
     background-color: red;
 }
-
-#portfolio .content
+/* PORTFOLIO */
+#portfolio-sect .content
 {
     height: 100px;
     width: 100%;
     padding: 20px;
     background-color: #0f0;
     justify-self: center;
+}
+
+/* ABOUT */
+
+#about-sect
+{
+    height: 400px;
+    background-color: #1abc9c;
+    color: #fff;
+}
+#about-sect .content
+{
+    height: 200px;
+    background-color: #fff;
 }
