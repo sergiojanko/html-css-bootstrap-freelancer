@@ -30,6 +30,15 @@ header
     align-items: center;
     height: 100%;
 }
+.header-row .logo-col
+{
+    flex-grow: 1;
+}
+
+#logo h1
+{
+    font-size: 1.4em;
+}
 
 /* JUMBOTRON */
 
@@ -51,4 +60,13 @@ header
     height: 300px;
     width: 300px;
     background-color: red;
+}
+
+#portfolio .content
+{
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    background-color: #0f0;
+    justify-self: center;
 }
