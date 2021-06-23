@@ -41,6 +41,14 @@
     background-color: #1abc9c;
 }
 
+/* CONTACT ME */
+
+#contact-me .form-control
+{
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
 
 .bg-blue
 {
