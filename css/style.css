@@ -2,23 +2,15 @@
 
 #jumbotron-sect
 {
-    height: 400px;
     background-color: #1ABC9C;
 }
 
-#jumbotron-sect .jumbo-content
+#jumbotron-sect .jumbo-img
 {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 200px
 }
-#jumbotron-sect .jumbo-content .box
-{
-    height: 300px;
-    width: 300px;
-    background-color: red;
-}
+
+
 /* PORTFOLIO */
 #portfolio-sect .content
 {
