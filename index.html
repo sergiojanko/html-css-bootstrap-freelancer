@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Freelancer</title>
@@ -28,7 +29,7 @@
     </header>
     <main>
         <section id="jumbotron-sect">
-            <div class="container jumbo-container">
+            <div class="container jumbo-container mb-3">
                         <div class="jumbo-content row text-center text-white">
                                 <div class="col-8 offset-2">
                                     <img src="./img/avatar.svg" alt="Avatar" class="jumbo-img">
@@ -38,8 +39,7 @@
                                 </div>
                                 <div class="col-12 col-md-8 offset-md-2">
                                     <div class="star">
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-trash2-fill"></i>
+                                        <img src="./img/star-fill.svg" alt="star">
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-8 offset-md-2">
@@ -114,7 +114,7 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-auto">
-                        <button type="button" class="btn btn-outline-light">Download</button>
+                        <button type="button" class="btn btn-outline-light my-btn">Download</button>
                     </div>
                 </div>
             </div>
@@ -136,7 +136,7 @@
                                     <input type="text" class="form-control" id="name">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="emailAddress" class="form-label">Email Address</label>
+                                    <label for="emailAddress" class="form-label">Email Address</ label>
                                     <input type="email" class="form-control" id="emailAddres">
                                 </div>
                                 <div class="mb-3">
@@ -147,7 +147,6 @@
                                     <label for="message" class="form-label">Message</label>
                                     <textarea class="form-control" id="message" rows="5"></textarea>
                                 </div>
-
                                 <button type="submit" class="btn btn-success">Send</button>
                             </form>
                         </div>
@@ -157,24 +156,53 @@
         </section>
     </main>
     <footer>
-        <div class="address">
+        <div class="address text-center bg-blue text-white">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-4 g-2 g-md-3">
-                        <div class="content"></div>
+                        <div class="content container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3>LOCATION</h3>
+                                </div>
+                                <div class="col-12">
+                                    <p>2215 John Daniel Drive Clark, MO 54243</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-12 col-md-4 g-2 g-md-3">
-                        <div class="content"></div>
+                        <div class="content container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-12"><h3>AROUND THE WEB</h3></div>
+                                <div class="col-12">
+                                    <i class="fab fa-facebook-f p-3 border border-1 rounded-circle"></i>
+                                    <i class="fab fa-google-plus-g p-3 border border-1 rounded-circle"></i>
+                                    <i class="fab fa-twitter p-3 border border-1 rounded-circle"></i>
+                                    <i class="fab fa-linkedin-in p-3 border border-1 rounded-circle"></i>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-12 col-md-4 g-2 g-md-3">
-                        <div class="content"></div>
+                        <div class="content container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3>ABOUT FREELANCER</h3>
+                                </div>
+                                <div class="col-12">
+                                    <p>Freelance is a free to use, open source Bootstrap theme created by <a href="">Start Bootstrap</a>.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row text-center bg-dark-blue text-white">
             <div class="col">
-                <div class="content">Copyright</div>
+                <div class="content p-3">Copyright &copy; Your Website 2019</div>
             </div>
         </div>
     </footer>

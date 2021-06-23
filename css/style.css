@@ -1,8 +1,15 @@
-.star::before
+.star img::before
 {
     content: '';
-    height: 1px;
+    height: 5px;
+    width: 30px;
+    background-color: #000;
     
+}
+
+.my-btn
+{
+
 }
 /* JUMBOTRON */
 
@@ -32,4 +39,15 @@
 #about-sect
 {
     background-color: #1abc9c;
+}
+
+
+.bg-blue
+{
+    background-color: #3A546D;
+}
+
+.bg-dark-blue
+{
+    background-color: #2C3E50;
 }
